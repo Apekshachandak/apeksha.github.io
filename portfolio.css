@@ -1,0 +1,183 @@
+body,
+html {
+  height: 100%;
+}
+
+
+a {
+  color:#777;
+}
+
+.profilestyle {
+  font-size: 23px;
+  font-family: OCR A Std, monospace;
+  color:#f2c57c;
+}
+
+.page {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.para {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  margin: 0% 2% 1% 4%;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(126, 228, 235);
+  padding: 4px;
+}
+.pic{
+  float:right;
+}
+.list{
+  padding-left: 30px;
+}
+nav {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #ccc7cc;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-links ul li {
+  padding: 2% 4%;
+  display: inline-block;
+  padding: 6px 10px;
+}
+
+.nav-links ul li a {
+
+
+  border: 2.5px solid #07a3ab;
+  color: rgb(12, 14, 14);
+  padding: 8px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.nav-links ul li a:hover {
+  background-color: #04AA6D;
+  font-size: 17px;
+}
+
+
+
+hr {
+  border: 1.6px solid #6ae4e7;
+}
+
+h2 {
+  font-weight: 1000;
+  padding: 1px;
+  color: #c8e087;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  
+  
+}
+
+.quote {
+  color: #a8c256;
+  font-size: 30px;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+}
+
+.QUOTES {
+  margin-top: 5rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  display: block;
+}
+
+.tables {
+  border-collapse: collapse;
+  border: 6px solid #090909;
+}
+
+.tables th {
+  font-size: 22px;
+  font-weight: 500;
+  color: #777 grey;
+  border: 2px solid rgb(7, 153, 161);
+  padding: 4px 30px 4px 8px
+}
+
+.tables td {
+  font-size: 20px;
+  border: 2px solid #0799a1;
+  color: #FF4500;
+  padding: 4px 30px 4px 8px
+}
+
+.dark-theme {
+  background-color: #080838;
+  background-image: "https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149138432.jpg?t=st=1707038909~exp=1707039509~hmac=fe8756aeefd20aa3b66dc257ccc28ecbb9ea6d260434c93b2ec1e8730d80797a";
+  color: #ffffff;
+}
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+  background-image: "https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/02/5594016-e1656071131636.jpg?zoom=2&resize=1000%2C750&ssl=1";
+}
+
+.dark-theme a {
+  color: #b5a651;
+}
+
+.lists {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 4%;
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  padding: 4px 30px 4px 0;
+  margin:0px;
+}
+
+.lists ul {
+  font-size: 38px;
+  padding: 4px 30px 4px 50px
+}
+
+.footer-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #cabfbf;
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+  color: white;
+}
+.footer-icons a.social-icon {
+  font-size: 45px;
+}
+
+
+
+
